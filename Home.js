@@ -6,7 +6,7 @@ const Home = ({navigation}) => {
     <View style={styles.container}>
       <Text style={styles.heading}>Welcome to app</Text>
       <TouchableOpacity style={styles.btn} onPress={()=>navigation.navigate('Login')}><Text>Login</Text></TouchableOpacity>
-      <Text style={styles.heading1}>Don't have an account</Text>
+      <Text style={styles.heading1}>Don't have an acc</Text>
       <TouchableOpacity style={styles.btn1} onPress={()=>navigation.navigate('Register')}><Text>Register</Text></TouchableOpacity>
     </View>
   )
